@@ -1,0 +1,1 @@
+Sample JSON parser android app. Parses a [JSON array of books](http://de-coding-test.s3.amazonaws.com/books.json) into a list that shows an image, title, and author. Uses [Picasso](http://square.github.io/picasso/) to handle image download and caching.
