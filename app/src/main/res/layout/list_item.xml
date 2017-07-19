@@ -1,0 +1,44 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--Image view for displaying the image-->
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:src="@mipmap/ic_launcher"
+        android:contentDescription="@string/image_description"/>
+
+    <!--title textView-->
+    <TextView
+        android:id="@+id/title"
+        android:layout_toRightOf="@id/image"
+        android:layout_toEndOf="@id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/book_title"
+        android:textColor="@android:color/black" />
+
+    <!--author textView-->
+    <TextView
+        android:id="@+id/author"
+        android:layout_below="@id/title"
+        android:layout_toRightOf="@id/image"
+        android:layout_toEndOf="@id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/book_author"
+        android:textColor="@android:color/black"/>
+
+</RelativeLayout>
